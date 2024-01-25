@@ -209,118 +209,115 @@ transition: inset .3s ease-out;
 
 .swiper-slide--5 {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/10.png")
+    url("images/10.png")
       no-repeat 50% 50% / cover;
 }
 .swiper-slide--6 {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/77.png")
+    url("images/77.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--7 {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/66.png")
+    url("images/66.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--8 {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/11.png")
+    url("images/11.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--9 {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/12.png")
+    url("images/12.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--10 {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/13.png")
+    url("images/13.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--11 {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/14.png")
+    url("images/14.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--12 {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/15.png")
+    url("images/15.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--13 {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/16.png")
+    url("images/16.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--14{
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/17.png")
+    url("images/17.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--15 {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/18.png")
+    url("images/18.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--16{
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/19.png")
+    url("images/19.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--17{
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/20.png")
+    url("images/20.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--18 {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/21.png")
+    url("images/21.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--19 {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/22.png")
+    url("images/22.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--20 {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/5.png")
+    url("images/5.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--21 {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/5.png")
+    url("images/5.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--22 {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/5.png")
+    url("images/5.png")
       no-repeat 50% 50% / cover;
 }
 .swiper-slide--23 {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/images/5.png")
+    url("images/5.png")
       no-repeat 50% 50% / cover;
 }
-
-
-
 
 .swiper-3d .swiper-slide-shadow-left,
 .swiper-3d .swiper-slide-shadow-right {
