@@ -1,0 +1,261 @@
+/* start bref */
+:root {
+    --text-main-color: #ffff;
+    --text-secondary-color: #0e0e0e;
+    --background-main-color: rgb(255, 255, 255);
+    --background-secondary-color: #34343470;
+    --cards-color: #f4f4f4;
+    --main-color: #181d47;
+    --shadow-first-background-color: #000000c8;
+    --shadow-second-background-color: #000000a8;
+    --transation: 0.3s;
+    --margin-top-large: 70px;
+    --margin-top-small: 75px;
+    --border-radius: 8px;
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+
+.container-fluid{
+    background-color: #161d45;
+}
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background:var(--background-main-color) !important;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+  }
+  
+  .numbers {
+    margin-top: 3vmin;
+}
+
+.numbers .rect h1 {
+    font-size: 5rem;
+    color: #161d45;
+}
+
+.numbers .rect > p {
+    font-family: var(--Patua);
+  }
+.bref {
+    margin-top: var(--margin-top-large) !important;
+}
+
+.bref .GridBref {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 65px;
+    text-align: center;
+}
+.sectionOne {
+    text-align:right ;
+}
+
+.bref .GridBref .sectionOne h2 {
+    color: var(--main-color);
+    font-weight: 800;
+}
+
+.bref .GridBref .sectionOne p {
+    font-size: 16px;
+    line-height: 1.8rem;
+}
+.bref .GridBref .sectionOne img {
+    width: 100% !important;
+    border-radius: var(--border-radius);
+}
+
+/* end bref */
+/* start about */
+.about {
+    margin-top: var(--margin-top-large);
+    background-color: var(--cards-color);
+    padding: 50px;
+}
+
+.about .aboutGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 65px;
+}
+
+.about .aboutGrid .sectionOne h2 {
+    color: var(--main-color);
+    font-weight: 800;
+}
+
+.about .aboutGrid .sectionOne p {
+    font-size: 16px;
+    line-height: 1.8rem;
+}
+
+.about .aboutGrid .sectionOne img {
+    width: 100% !important;
+
+}
+
+/* end aboud */
+
+
+
+
+
+
+
+
+
+
+/* end competitions */
+/* extra small screens */
+@media only screen and (max-width: 600px) {
+
+    /* start bref */
+    .bref {
+        margin-top: -12px !important;
+    }
+
+    .bref .GridBref {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    /* end bref */
+    /* start about */
+    .about .aboutGrid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 65px;
+    }
+
+
+}
+
+/* small screen */
+@media (min-width:601px) and (max-width:767px) {
+    .bref {
+        margin-top: var(--margin-top-small) !important;
+    }
+
+    .bref .GridBref {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    /* start about */
+    .about .aboutGrid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 65px;
+    }
+
+    /* end about */
+    /* start awards */
+    .awards {
+        margin-top: var(--margin-top-small) !important;
+    }
+
+    .awards .awardsGrid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 45px;
+    }
+
+    /* end awards */
+    /* start competitions */
+
+
+}
+
+/* medium screens */
+@media (min-width:768px) and (max-width:780px) {
+    .bref {
+        margin-top: var(--margin-top-small) !important;
+    }
+
+    .bref .GridBref {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    /* start about */
+    .about .aboutGrid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 65px;
+    }
+
+
+}
+
+/*  large screens */
+@media (min-width:781px) and (max-width:940px) {
+
+    /* start bref */
+    .bref {
+        margin-top: var(--margin-top-small) !important;
+    }
+
+    .bref .GridBref {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+
+    /* end bref */
+    /* start about */
+    .about .aboutGrid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 65px;
+    }
+
+}
+
+@media (min-width:941px) and (max-width:1200px) {
+
+    /* start bref */
+    .bref {
+        margin-top: var(--margin-top-small) !important;
+    }
+
+    .bref .GridBref {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    /* end bref */
+    /* start about */
+    .about .aboutGrid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 65px;
+    }
+
+    /* end about */
+
+}
+
+/* extra large screens */
+@media (min-width:1400px) and (max-width:3700px) {
+
+    /* start Header */
+    .bref .GridBref .sectionOne p {
+        font-size: 22px;
+        line-height: 2.1rem;
+        margin-bottom: 22px;
+
+    }
+
+    .bref .GridBref .sectionOne .button {
+        padding: 16px;
+        font-size: 20px;
+    }
+
+    /* start Header */
+
+}
